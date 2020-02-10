@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+
+    <title>Order a Melongram!</title>
+    <body>
+        <h1> Order a Melongram</h1>
+
+        <p>There's no better way to show a loved one you care than with a Melongram.
+
+        Each Melongram comes with a custom message printed on high-quality cardstock
+        and your choice of a hand-picked, premium melon.</p>
+
+        <h2>Melon Options</h2>
+
+        <p>Choose from one of these melons:</p>
+        <table>
+        <tr>
+            <td>Watermelon</td> 
+            <td>$1,200.00</td>
+        </tr>
+        <tr>
+            <td>Canteloupe</td>
+            <td> $400.00</td>
+        </tr>
+        <tr>
+        <td>Honeydew</td>
+        <td>$1,750,00.00</td>
+        </tr>
+        </table>
+
+        <h2>Order Form</h2>
+        
+        <form>
+            <p>Your Name <input type = "text" name = "Your name"</p>
+            <p>Who are we sending this to?  <input type = "text" name = "Who are we sending this to?"></p>
+
+
+            <p>Choose a melon
+            <select name = "lang">
+                <option value = "Watermleon">Watermelon</option>
+                <option value = "Canteloupe">Cantaloupe</option>
+                <option value = "Honeydew">Honeymelon</option>
+            </select>
+            </p>
+
+
+            <p>When should we deliver?
+            <input type ="radio" name = "Deliver Time" value = "Morning" id = "Morning">
+                <label for ="Morning" >Morning</label>
+            <input type = "radio" name = "Deliver Time" value = "Evening" id = "Evening">
+                <label for = "Evening"> Evening</label>
+            <input type = "radio" name = "Deliver Time" value = "Any time" id = "Any Time"> 
+                <label for = "Any Time">Any Time</label>
+            </p>
+            <p>
+            <label>Enter your message:</label>
+            <textarea name = "Message"> </textarea>
+            </p>
+
+
+
+            <p>
+                Subscribe to our newsletter    
+                <input type = "checkbox" name = "newsletter" value="Yes">
+                <label>Yes</label>
+            </p>
+            <button type = "submit"> Submit Order </button>
+        </form>
+    </body>
+</html>
